@@ -3,7 +3,7 @@ arguments:
     - "--no-color --require-approval never"
 environment_variables:
   AWS_REGION: us-west-2
-  CODE_URI: s3://aco-dev-build-bucket/cdk-typescript-example.tar.gz
+  CODE_URI: s3://sf-aco-build-bucket/cdk-typescript-example.tar.gz
   VAULT_ADDR: http://127.0.0.1:8200
 framework: cdk
 parameters:
